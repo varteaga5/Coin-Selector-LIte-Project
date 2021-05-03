@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <title>Coin Selector lite</title>
+</head>
+
+<body>
+    <section class="hero is-warning mb-6">
+        <div class="hero-body">
+            <p class="title has-text-centered is-italic">
+                Coin Selector lite
+            </p>
+            <p class="subtitle has-text-centered">
+                Choose your coin!
+            </p>
+            <div class='has-text-centered'>
+                <div class='select is-rounded'>
+                    <select name="coin"
+                            class='select has-info is-normal'
+                            id="coin-choices">
+                        <option> </option>
+                        <option value="Bitcoin">Bitcoin</option>
+                        <option value="Litecoin">Litecoin</option>
+                        <option value="Ethereum">Ethereum</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+    <p></p>
+    <div id='coin-display'
+         class='has-text-centered'>
+
+    </div>
+    <span class=' has-text-centered'>
+        <form action=""
+              class='mt-6'>
+            <a class='like-btn has-text-danger'> &#x2661; </a>
+            <input type="text"
+                   id='text-box'
+                   class='is-rounded'
+                   placeholder="comment here">
+            <input type="submit"
+                   id='sub-btn'
+                   class='button is-warning is-small'>
+        </form>
+    </span>
+    <ul id='comments-ul'
+        class='has-text-centered'></ul>
+
+    <script src='./script.js'></script>
+</body>
+
+</html>
