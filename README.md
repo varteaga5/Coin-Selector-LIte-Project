@@ -13,4 +13,6 @@ Feel free to leave a comment, your comments will populate below.
 
 And dont forget to smash the like button!
 
+Check out the link to watch a video demo of the project:
 
+https://drive.google.com/file/d/1Hv8wP9bz0tSMVoQJmdx8J2FD4FIOzuUQ/view?usp=sharing
